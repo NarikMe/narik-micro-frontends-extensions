@@ -1,4 +1,4 @@
-# Narik-Micro-Frontends-Extensions
+# Narik Micro-Frontends Extensions
 
 Any Extensions for Narik Micro-Frontends
 
