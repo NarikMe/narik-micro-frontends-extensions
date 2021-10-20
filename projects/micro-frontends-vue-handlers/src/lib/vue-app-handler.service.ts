@@ -1,21 +1,23 @@
-import { VueAppHostComponent } from "./vue-app-host/vue-app-host.component";
-import { Injectable, Injector } from "@angular/core";
-import { Router } from "@angular/router";
+import { Injectable, Injector } from '@angular/core';
+import { Router } from '@angular/router';
 import {
   App,
   AppHandler,
-  AppInformation,
-  AppLoader,
-} from "@narik/micro-frontends-infrastructure";
+  AppInformation
+} from '@narik/micro-frontends-infrastructure';
+import { VueAppHostComponent } from './vue-app-host/vue-app-host.component';
 
 @Injectable()
 export class VueAppHandler extends AppHandler {
+  private readonly handlerKey = 'vue-app';
+  readonly order = 0;
+
   constructor(private router: Router) {
     super();
   }
 
-  get key(): string {
-    return "vue-app";
+  canHandle(app: AppInformation): boolean {
+    return app.handle.type === this.handlerKey;
   }
 
   initialize(

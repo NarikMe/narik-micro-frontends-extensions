@@ -1183,10 +1183,10 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
-"@narik/micro-frontends-infrastructure@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@narik/micro-frontends-infrastructure/-/micro-frontends-infrastructure-1.1.0.tgz#74dc2c477d81c73a834287f43c0a7b7959b43f65"
-  integrity sha512-XKHlp88ERJLbdWB1qYM4Kjh76QdR9wbL+QRy76FlcKOTHfVuZEGYtpvSi5fEm72WqU2DM39BU4SqlJEs94Fb2A==
+"@narik/micro-frontends-infrastructure@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@narik/micro-frontends-infrastructure/-/micro-frontends-infrastructure-1.3.0.tgz#04942f062d499462da4723bb1544d0e36aa593ae"
+  integrity sha512-UBLvZfsg42voTB4SRVXb0F6Ie/D0P186Ez8P5MBDVi9U76BOpd1Q5Knqq833+UUDcrNYVu6AJ+NYYzOcCvn+lQ==
   dependencies:
     tslib "^2.3.0"
 
